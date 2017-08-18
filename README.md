@@ -61,6 +61,17 @@ c.request.cookie.set({
 	secure: false
 })
 ```
+
+|Options | Value                          |
+|--------| -------------------------------|
+|Key     | Cookie Name                    |
+|Value   | Cookie Value                   |
+|Path    | Url Path                       |
+|Domain  | Sub or Domain                  |
+|httpOnly| bool                           |
+|secure  | bool                           |
+|max-age | seconds after the cookie expres|
+
 ```javascript
 // Get a cookie
 ctx.request.cookie.get('my_id') => "12345678"
