@@ -1,6 +1,6 @@
 {
   "name": "cca-koa-cookie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cookie Parser and Setter for Koa",
   "main": "Cookie.js",
   "repository": {
@@ -9,8 +9,10 @@
   },
   "keywords": [
     "Koa",
+    "Middleware"
     "Cookie",
-    "cca"
+    "cca",
+    "lightweight"
   ],
   "author": "Niccolo Borgioli",
   "license": "ISC",

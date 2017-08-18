@@ -1,5 +1,5 @@
 # koa-cookie
-Koa Cookie Utility
+Lightweight Koa-Middleware for Cookies
 
 ### Complete Example
 ```javascript
