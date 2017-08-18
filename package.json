@@ -1,0 +1,24 @@
+{
+  "name": "cca-koa-cookie",
+  "version": "0.1.0",
+  "description": "Cookie Parser and Setter for Koa",
+  "main": "Cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CupCakeArmy/koa-cookie.git"
+  },
+  "keywords": [
+    "Koa",
+    "Cookie",
+    "cca"
+  ],
+  "author": "Niccolo Borgioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CupCakeArmy/koa-cookie/issues"
+  },
+  "homepage": "https://github.com/CupCakeArmy/koa-cookie#readme"
+}
