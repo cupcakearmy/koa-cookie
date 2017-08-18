@@ -5,20 +5,20 @@ Koa Cookie Utility
 ```javascript
 const
 	Koa = require('koa'),
-    router = require('koa-simple-router'),
+	router = require('koa-simple-router'),
 	cookie = require('cca-koa-cookie')
 
-const 
+const
 	app = new Koa(),
 	port = 3000
-	
-// Parse Parameters
-app.use(require(cookie))
+
+// Parse Parameters 
+app.use(cookie)
 
 app.use(router({}, _ => {
 	_.get('/set', (c, n) => {
-		
-		// Set a cookie
+
+		// Set a cookie 
 		c.request.cookie.set({
 			key: 'my_id',
 			value: '12345678',
@@ -27,7 +27,7 @@ app.use(router({}, _ => {
 			httpOnly: true,
 			secure: false
 		})
-		
+
 		c.body = [200, 'Cookie Set']
 	})
 
