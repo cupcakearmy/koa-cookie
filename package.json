@@ -1,6 +1,6 @@
 {
   "name": "cca-koa-cookie",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Cookie Parser and Setter for Koa",
   "main": "Cookie.js",
   "repository": {

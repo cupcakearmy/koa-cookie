@@ -5,14 +5,13 @@ Lightweight Koa-Middleware for Cookies
 ```javascript
 const
 	Koa = require('koa'),
-	router = require('koa-simple-router'),
-	cookie = require('cca-koa-cookie')
+	cookie = require('cca-koa-cookie'),
+	router = require('cca-koa-router')
 
 const
 	app = new Koa(),
 	port = 3000
 
-// Parse Parameters 
 app.use(cookie)
 
 app.use(router({}, _ => {
@@ -28,11 +27,11 @@ app.use(router({}, _ => {
 			secure: false
 		})
 
-		c.body = [200, 'Cookie Set']
+		c.body = 'Cookie Set'
 	})
 
 	_.get('/get', (c, n) => {
-		c.body = [200, c.request.cookies]
+		c.body = c.request.cookies
 	})
 }))
 
@@ -52,7 +51,7 @@ The Parser also defines a getter and setter for cookies
 ###### Example
 ```javascript
 // Set a cookie
-c.request.cookie.set({
+ctx.request.cookie.set({
 	key: 'my_id',
 	value: '12345678',
 	path: '/',
