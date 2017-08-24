@@ -1,5 +1,15 @@
 # koa-cookie
+
+[![npm](https://img.shields.io/npm/v/cca-koa-cookie.svg)](https://www.npmjs.com/package/cca-koa-cookie)
+[![npm](https://img.shields.io/npm/dt/cca-koa-cookie.svg)]()
+[![npm](https://img.shields.io/npm/l/cca-koa-cookie.svg)]()
+
 Lightweight Koa-Middleware for Cookies
+
+### Install
+```bash
+npm install cca-koa-cookie --save
+```
 
 ### Complete Example
 ```javascript
