@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/CupCakeArmy/koa-cookie.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "Koa",
     "Middleware",
@@ -19,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/CupCakeArmy/koa-cookie/issues"
   },
-  "homepage": "https://github.com/CupCakeArmy/koa-cookie#readme"
+  "homepage": "https://github.com/CupCakeArmy/koa-cookie#readme",
+  "devDependencies": {
+    "koa": "latest",
+    "cca-koa-router": "latest",
+    "mocha": "latest"
+  }
 }
