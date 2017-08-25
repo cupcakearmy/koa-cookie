@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/cca-koa-cookie.svg)](https://www.npmjs.com/package/cca-koa-cookie)
 [![npm](https://img.shields.io/npm/dt/cca-koa-cookie.svg)]()
 [![npm](https://img.shields.io/npm/l/cca-koa-cookie.svg)]()
+[![Travis](https://img.shields.io/travis/CupCakeArmy/koa-cookie.svg)]()
 
 Lightweight Koa-Middleware for Cookies
 
