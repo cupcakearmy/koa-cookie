@@ -1,7 +1,6 @@
 # koa-cookie
 
 [![Join the chat at https://gitter.im/cupcakearmy/koa-cookie](https://badges.gitter.im/cupcakearmy/koa-cookie.svg)](https://gitter.im/cupcakearmy/koa-cookie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![npm](https://img.shields.io/npm/v/cca-koa-cookie.svg)](https://www.npmjs.com/package/cca-koa-cookie)
 [![npm](https://img.shields.io/npm/dt/cca-koa-cookie.svg)]()
 [![npm](https://img.shields.io/npm/l/cca-koa-cookie.svg)]()
