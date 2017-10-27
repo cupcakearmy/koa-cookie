@@ -10,6 +10,7 @@ Lightweight Koa-Middleware for Cookies
 ### QA
 
 If you have questions:
+
 [![Join the chat at https://gitter.im/cupcakearmy/koa-cookie](https://badges.gitter.im/cupcakearmy/koa-cookie.svg)](https://gitter.im/cupcakearmy/koa-cookie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Install
